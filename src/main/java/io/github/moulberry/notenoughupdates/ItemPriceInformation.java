@@ -62,7 +62,7 @@ public class ItemPriceInformation {
 		".*Stored: §.(?<amount>[\\d,]+)§.\\/.*");
 
 	private static final Pattern GEMSTONE_STORED_AMOUNT = Pattern.compile(
-		" .*Amount: §.(?<amount>[\\d,]+)");
+		".*Amount: §.(?<amount>[\\d,]+)");
 
 	private static final Pattern COMPOSTER_STORED_AMOUNT = Pattern.compile(
 		".*Compost Available: §.(?<amount>[\\d,]+)");
